@@ -276,33 +276,12 @@ var flightType
        
               
       })
-        
-
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
           
        })
    
-     
-
-	
-	  // fetch("/.netlify/functions/quote", {
-    fetch("http://localhost:9000/quote", {
+	   fetch("/.netlify/functions/quote", {
+   // fetch("http://localhost:9000/quote", {
 		method: 'POST',
 		headers: {
 		Accept: "application/json",
