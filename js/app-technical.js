@@ -260,38 +260,12 @@ var flightType
       
         document.getElementById('table-result').rows[1].cells[1].innerHTML=`${lightingCalc} times`; 
         document.getElementById('table-result').rows[1].cells[0].innerHTML=`${parkingCalc} ${perTime0}`; 
-   
        
-              
       })
         
-
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          
        })
    
-     
-
-
-
-	
-	  fetch("http://localhost:9000/quote", {
+   fetch("/.netlify/functions/quote", {
 		method: 'POST',
 		headers: {
 		Accept: "application/json",
